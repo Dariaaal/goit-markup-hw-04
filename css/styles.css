@@ -125,6 +125,10 @@ header{
     margin-left: 50px;
 }
 
+.icon-contacts{
+    
+}
+
 .contacts{
     color: var(--seconday-text-color);
     font-weight: 500;
@@ -212,6 +216,7 @@ section{
 .buttons-list button:hover,.buttons-list button:focus{
     background-color: var(--accent-color);
     color: var(--letters-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .main-section{
@@ -302,6 +307,11 @@ section{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.portfolio-link:hover,.portfolio-link:focus{
+    display: block;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .border{
